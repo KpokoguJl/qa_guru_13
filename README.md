@@ -34,16 +34,16 @@ test
 
 # Запуск тестов в Jenkins выглядит следующим образом
 Главная страница сборки
-![](/home/sergey/IdeaProjects/qa_guru_13/media/JenkinsJob.svg)
+![](media/JenkinsJob.svg)
 
 Выбор параметров сборки
-![](/home/sergey/IdeaProjects/qa_guru_13/media/JenkinsJobStart.svg)
+![](media/JenkinsJobStart.svg)
 
 Работа сборки
-![](/home/sergey/IdeaProjects/qa_guru_13/media/JenkinsJobWork.svg)
+![](media/JenkinsJobWork.svg)
 
 Отчет о выполнении тестов
-![](/home/sergey/IdeaProjects/qa_guru_13/media/AllureReport.svg)
+![](media/AllureReport.svg)
 
 Каждый тесте, независимо от результата, состоит из:
 - начальных параметров,
@@ -53,12 +53,12 @@ test
 - лога консоли браузера,
 - видео выполнения теста.
 
-![](/home/sergey/IdeaProjects/qa_guru_13/media/AllureReportAll.svg)
+![](media/AllureReportAll.svg)
 
 По резултатам работы тестов отправляется краткий отчет в Telegram
-![](/home/sergey/IdeaProjects/qa_guru_13/media/TelegramBot.svg)
+![](media/TelegramBot.svg)
 
 # Пример прохождения теста на удаленной машине
-![](/home/sergey/IdeaProjects/qa_guru_13/media/Test.gif)
+![](media/Test.gif)
 
 
