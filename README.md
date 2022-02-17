@@ -1,6 +1,3 @@
-# qa_guru_13
-Homework for lesson#13 (job search)
-
 # Проект автотестов на сайт Unicom24.ru
 
 Использованны слудующие технологии:
