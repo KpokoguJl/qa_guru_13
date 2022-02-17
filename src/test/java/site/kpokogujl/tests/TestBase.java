@@ -17,22 +17,20 @@ public class TestBase {
 
         String browser = System.getProperty("browser", "chrome");
         String version = System.getProperty("version", "91");
-        String remoteUrl = System.getProperty("remoteUrl", "");
 
         Configuration.baseUrl = "https://unicom24.ru/";
         Configuration.browserSize = "1920x1080";
         Configuration.browser = browser;
         Configuration.browserVersion = version;
-//        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
 
-//        DesiredCapabilities capabilities = new DesiredCapabilities();
-//        capabilities.setCapability("enableVNC", true);
-//        capabilities.setCapability("enableVideo", true);
-//        Configuration.browserCapabilities = capabilities;
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
+        Configuration.browserCapabilities = capabilities;
 
         Attach.attachAsText("Browser: ", browser);
         Attach.attachAsText("Version: ", version);
-        Attach.attachAsText("Remote Url: ", remoteUrl);
     }
 
     @AfterEach
