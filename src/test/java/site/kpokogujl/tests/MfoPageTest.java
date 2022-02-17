@@ -5,7 +5,7 @@ import site.kpokogujl.pages.UnicomMfoPage;
 
 public class MfoPageTest extends TestBase{
     @Test
-    void goToMfoPageTest() {
+    void openFiltersOnMfoPageTest() {
         UnicomMfoPage mfoPage = new UnicomMfoPage();
 
         mfoPage

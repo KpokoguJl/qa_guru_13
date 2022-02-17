@@ -9,7 +9,6 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class UnicomMfoPage {
     SelenideElement pageHeader = $(".my0"),
-            reviewsLink = $(".offer-wall-seo-nav__menu").$(byText("Отзывы")).parent(),
             filterButton = $(byText("Фильтры")),
             additionalParamTitle = $(".header").$(".title");
 
@@ -24,10 +23,8 @@ public class UnicomMfoPage {
         filterButton.click();
     }
 
-    public UnicomMfoPage pageIsOpened (){
+    public void pageIsOpened (){
         pageHeader.shouldHave(text("Займы онлайн на карту банка"));
-
-        return this;
     }
 
     public void filtersIsOpened (){

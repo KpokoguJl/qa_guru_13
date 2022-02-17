@@ -36,7 +36,7 @@ public class MainPageTest extends TestBase{
 
         mainPage.
                 openPage()
-                .creditButtonClick();
+                .creditCardButtonClick();
 
         creditPage.pageIsOpened();
     }
